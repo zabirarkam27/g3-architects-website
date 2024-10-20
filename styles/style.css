@@ -158,6 +158,40 @@ main> section{
     font-weight: 500;
 }
 
+/* features will enjoy related styles is here */
+.enjoy-features{
+    display: flex;
+    max-width: 1440px;
+    align-items: center;
+}
+
+.enjoy-feature-details{
+    max-width: 586px;
+    width: 98%;
+}
+
+.enjoy-heading{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.feature-card{
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.feature-card-heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.enjoy-feature-img{
+    max-width: 708px;
+    width: 98%;
+}
 
 /* some facts related styles */
 
@@ -228,7 +262,6 @@ main> section{
 .footer p{
     font-size: 1.25rem;
     padding: 50px 0;
-    margin: 0 auto;
 }
 
 
