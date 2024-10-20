@@ -193,6 +193,23 @@ main> section{
     width: 98%;
 }
 
+.enjoy-feature-img .btn-primary{
+    padding: 45px 42px;
+    margin-left: -50px;
+    margin-top: -80px;
+}
+
+#experience-badge{
+    padding: px;
+    font-size: 4rem;
+    font-weight:700;
+}
+#experience-year{
+    font-size: 1.5 rem;
+    font-weight:500;
+}
+
+
 /* some facts related styles */
 
 .facts-container{
@@ -302,6 +319,10 @@ main> section{
     }
     .facts-container{
         justify-items: center;
+        margin-bottom: 0;
+    }
+    .our-sponsors{
+        margin-top: 0;
     }
 
     .sponsors-logo{
@@ -309,6 +330,40 @@ main> section{
         gap: 50px;
         max-width: 80%;
     }
+    .enjoy-features{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    
+    .enjoy-feature-details{
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .enjoy-feature-details{
+        margin-top: 0;
+    }
+
+    .enjoy-feature-img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .enjoy-feature-img img{
+        width: 95%;
+    }
+
+    #experience-btn{
+        margin: 10px auto;
+        padding: 20px;
+    }
+    #experience-badge{
+        font-size: 1.5rem;
+    }
+    #experience-year{
+        font-size: 1rem;
+    }
+
 }
 
 
@@ -329,6 +384,22 @@ main> section{
         text-align: center;
         margin: 50px 10px;
     }
+
+    .enjoy-feature-img img{
+        width: 98%;
+    }
+
+    #experience-btn{
+        margin: 10px auto;
+        padding: 20px;
+    }
+    #experience-badge{
+        font-size: 1.5rem;
+    }
+    #experience-year{
+        font-size: 1rem;
+    }
+
     .facts-container{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
