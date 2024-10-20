@@ -270,6 +270,12 @@ main> section{
     .facts-container{
         justify-items: center;
     }
+
+    .sponsors-logo{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        max-width: 80%;
+    }
 }
 
 
@@ -293,5 +299,10 @@ main> section{
     .facts-container{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+    }
+    .sponsors-logo{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        max-width: 80%;
     }
 }
