@@ -50,6 +50,11 @@
     font-weight: 600;
 }
 
+.section-title{
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
 main{
     max-width: 1440px;
     margin: 0 auto;
@@ -134,10 +139,7 @@ main> section{
     max-width: 530px;
 }
 
-.feature-title{
-    font-size: 2.8125rem;
-    font-weight: 700;
-}
+
 .feature-description{
     margin-top: 24px;
 }
@@ -150,11 +152,20 @@ main> section{
 /* responsive media query */
 @media screen and (max-width:576px) {
     .navbar, .nav-links, .teams {
-        display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
+    .nav-item {
+        margin: 5px 0;
+    }
+
+    .nav-links {
+        margin-top: 20px;
+        padding:0;
+    }
+
     .team-img-container{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -164,7 +175,8 @@ main> section{
     }
 }
 
-@media screen and (min-width: 576px) and (max-width:992px) {
+
+@media screen and (min-width: 576px) and (max-width:1024px) {
     .teams{
         flex-direction: column;
         width: 95%;
