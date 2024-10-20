@@ -172,4 +172,12 @@ main> section{
         flex-direction: column;
         width: 90%;
     }
+    .team-img-container{
+        gap: 15px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .team-img-container>img{
+        width: 95%;
+    }
 }
