@@ -55,6 +55,16 @@
     font-weight: 700;
 }
 
+.div-description{
+    max-width: 540px;
+    margin: 100px 0;
+    padding: 0 20px;
+}
+
+.div-description>p{
+    margin-top: 24px;
+}
+
 main{
     max-width: 1440px;
     margin: 0 auto;
@@ -150,15 +160,7 @@ main> section{
 
 
 /* some facts related styles */
-.fact-description{
-    max-width: 540px;
-    margin: 100px 0;
-    padding: 0 20px;
-}
 
-.fact-description>p{
-    margin-top: 24px;
-}
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -188,6 +190,48 @@ main> section{
     font-size: 1.25rem;
     font-weight:600;
 }
+
+/* our sponsors styles */
+.our-sponsors{
+    margin: 80px auto;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-text{
+    margin-bottom: 50px;
+}
+.sponsors-logo{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 100px;
+    max-width: 98%;
+
+}
+.sponsors-logo img{
+    filter: grayscale(100%);
+    max-width: 165px;
+    width: 100%;
+}
+
+/* Footer */
+.footer{
+    text-align: center;
+    margin-bottom: 80px;
+   
+}
+
+.footer p{
+    font-size: 1.25rem;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+
 
 /* responsive media query */
 @media screen and (max-width:576px) {
