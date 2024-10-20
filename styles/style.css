@@ -8,7 +8,7 @@
   }
 
   *{
-    margin: 10px auto;
+    margin: 0px auto;
     box-sizing: content-box;
   }
 
@@ -42,6 +42,7 @@
 .btn-primary{
     color: #fff;
     background-color: #FF900E;
+    margin-top: 32px;
     border-color:#FF900E;
     padding: 20px 25px;
     border-radius: 8px;
@@ -65,7 +66,7 @@ main> section{
     align-items: center;
     max-width: 2300px;
     margin: 0 auto;
-    padding: 0;
+    padding-top: 50px;
 }
 
 .brand{
@@ -86,6 +87,7 @@ main> section{
 /* Banner related styles */
 .banner{
     margin: 0 auto;
+    margin-top: 116px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -105,16 +107,8 @@ main> section{
 }
 
 .banner-description{
+    margin-top: 32px;
     font-size: 1rem;
-}
-
-.btn-primary{
-    color: #fff;
-    border-color:#FF900E;
-    padding: 20px 25px;
-    border-radius: 8px;
-    font-size: 1.25rem;
-    font-weight: 600;
 }
 
 .banner-image{
@@ -144,6 +138,9 @@ main> section{
     font-size: 2.8125rem;
     font-weight: 700;
 }
+.feature-description{
+    margin-top: 24px;
+}
 
 #quick-list{
     font-weight: 500;
@@ -163,14 +160,14 @@ main> section{
     }
     .banner, .our-features{
         text-align: center;
-        margin: 0 10px;
+        margin: 50px 10px;
     }
 }
 
 @media screen and (min-width: 576px) and (max-width:992px) {
     .teams{
         flex-direction: column;
-        width: 90%;
+        width: 95%;
     }
     .team-img-container{
         gap: 15px;
@@ -179,5 +176,9 @@ main> section{
     }
     .team-img-container>img{
         width: 95%;
+    }
+    .our-features{
+        text-align: center;
+        margin: 50px 10px;
     }
 }
